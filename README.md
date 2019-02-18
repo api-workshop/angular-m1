@@ -5,10 +5,24 @@
 This is the only time you should need git
 
 ```
-git clone https://github.com/cts-workshop-02-2019/angular7-m0
+git clone https://github.com/febinrejoe/angular7-m1
 cd angular7-m0
 ```
+## Add configuration
 
+Add the following configuration in `frontend.yml`
+
+```yml
+employees-api:
+  url: <RAPID API Base URL>
+
+security:
+  oauth2:
+    client:
+      access-token-uri: <RAPID Access Token URI>
+      client-id: <Cliend ID from RAPID>
+      client-secret: <Client Secret from RAPID>
+```
 ## Deploy the app
 
 Verify I'm pointed to the right space:
@@ -21,8 +35,4 @@ Push the app:
 cf push
 ```
 
-## Create an app from scratch
-
-[Creating a new app with Java](https://github.com/cts-workshop-02-2019/spring-employee-service-m1) 
-
-[Creating a new app with DotNet](https://github.com/cts-workshop-02-2019/dotnet-employee-service-m1)
+## Test it
