@@ -6,7 +6,7 @@ This is the only time you should need git
 
 ```
 git clone https://github.com/febinrejoe/angular7-m1
-cd angular7-m0
+cd angular7-m1
 ```
 ## Add configuration
 
