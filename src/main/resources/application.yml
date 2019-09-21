@@ -1,4 +1,17 @@
-info:
-  build:
-    version: @project.version@
-    
+#info:
+#  build:
+#    version: @project.version@
+#    
+#employees-api:
+#  url: https://rapid-staging.cerner.com:8243/AJ068309/1.0
+#
+#security:
+#  oauth2:
+#    client:
+#      access-token-uri: https://rapid-staging.cerner.com:8243/token
+#      client-id: AUsM8gQ6BGkX37kgdRhXQ_fAsQsa
+#      client-secret: NsWx0RMmBmUR7LjFPUw83rwAQDYa
+
+spring:
+  application:
+    name: frontend

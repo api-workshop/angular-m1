@@ -13,3 +13,13 @@ spring:
       enabled: ALWAYS
   zipkin:
     enabled: false
+    
+employees-api:
+  url: https://rapid-staging.cerner.com:8243/local/1.0
+
+security:
+  oauth2:
+    client:
+      access-token-uri: https://localhost:8080/token
+      client-id: id
+      client-secret: secret    

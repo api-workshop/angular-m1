@@ -8,3 +8,8 @@ applications:
     services:
       - config-service
     timeout: 180
+    env:
+      security_oauth2_client_access-token-uri: https://rapid-staging.cerner.com:8243/token
+      security_oauth2_client_client-id: AUsM8gQ6BGkX37kgdRhXQ_fAsQsa
+      security_oauth2_client_client-secret: NsWx0RMmBmUR7LjFPUw83rwAQDYa
+      employees-api_url: https://rapid-staging.cerner.com:8243/AJ068309/1.0
